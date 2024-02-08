@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOHLER - Notificação de Disponibilidade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="./img/KOHLERWhite.svg" alt="Kohlerwhite.svg">
+    </header>
+    <section>
+        <h2>Notificação de Disponibilidade</h2>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+        <label>Nome</label>
+        <input type="text" name="Nome" placeholder="Digite seu nome" autocomplete="off" required>
+        <label>Transportadora</label>
+        <input type="text" name="Tranpostadora" placeholder="Digite o nome da transportadora" autocomplete="off" required>
+        <label>Data</label>
+        <input type="date" name="Data" required>
+        <button type="submit">Enviar</button>
+        
+        <input type="hidden" name="replyTo" value="Andersonkohler2021@gmail.com"> <!-- Optional -->
+        <input type="hidden" name="accessKey" value="6e171a2f-be8b-4e88-9010-3e091e8377db">
+        <input type="hidden" name="redirectTo" value=http://127.0.0.1:5500/Project%20Form/notify.html>
+    </form>
+    </section>
+</body>
+</html>
